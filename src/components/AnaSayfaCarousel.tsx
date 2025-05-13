@@ -3,12 +3,12 @@ import { Carousel } from "react-responsive-carousel";
 
 export default function AnaSayfaCarousel(){
     
-    const images = ["/anasayfa_img_1.png",
-        "ana2.jpg",
-        "ana3.jpg",
-        "ana4.jpg",
-        "ana5.jpg",
-        "ana6.jpg",
+    const images = ["murat-et-gece-donercisi/anasayfa_img_1.png",
+        "murat-et-gece-donercisi/ana2.jpg",
+        "murat-et-gece-donercisi/ana3.jpg",
+        "murat-et-gece-donercisi/ana4.jpg",
+        "murat-et-gece-donercisi/ana5.jpg",
+        "murat-et-gece-donercisi/ana6.jpg",
     ]
     
     return(

@@ -55,7 +55,7 @@ const MusteriYorumlari: React.FC = () => {
             <div style={{display: "flex", flexDirection: "row", alignItems: "center", paddingLeft: 8, paddingTop: 8}}>
               {product.noImage ? 
                 <h2 style={{fontSize: 30, backgroundColor: "red", borderRadius: 32, width: 48, height: 48, margin: 0, alignItems: "center", justifyContent: "center"}}>{product.name.charAt(0)}</h2>
-               : <img src={product.image} style={{borderRadius: 32, width: 48, height: 48}}  />
+               : <img src={"murat-et-gece-donercisi/" + product.image} style={{borderRadius: 32, width: 48, height: 48}}  />
                 }
               <div style={{marginLeft: 12, alignItems: "center"}}>
                 <h3 style={{margin: 0,color: "black", textAlign: "left"}}>{product.name}</h3>
@@ -63,10 +63,10 @@ const MusteriYorumlari: React.FC = () => {
               </div>
             <div/>
             </div>
-            <img src={"/google-logo.png"} style={{borderRadius: 32, width: 32, height: 32}}  />
+            <img src={"murat-et-gece-donercisi/google-logo.png"} style={{borderRadius: 32, width: 32, height: 32}}  />
           </div>
           <div style={{display: "flex", flexDirection: "row", paddingTop: 12, paddingLeft: 12}}>
-          {[...Array(product.star)].map(_ => <img src="star.svg" style={{width: 24, height: 24, paddingLeft: 4}} />)}
+          {[...Array(product.star)].map(_ => <img src="murat-et-gece-donercisi/star.svg" style={{width: 24, height: 24, paddingLeft: 4}} />)}
           </div>
           <h3 style={{color: "#333", fontSize: 14, textAlign: "left", paddingLeft: 12, paddingRight: 12}}>{product.body}</h3>
           </div>

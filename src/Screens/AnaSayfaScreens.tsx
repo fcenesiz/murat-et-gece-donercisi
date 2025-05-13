@@ -56,15 +56,15 @@ export default function AnaSayfaScreen(){
 <br/><br/>🌙 Gece acıkanların vazgeçilmez adresi: “Gece döneri başka olur” diyenlerin favorisi!</h4>
            <div style={{display: "flex", minHeight: 200, flexDirection: "row", alignItems: "center", justifyContent: "space-evenly"}} >
             <div style={{display: "flex", flexDirection: "column"}}>
-              <img src="a-feature_1_1-1.svg" style={{height: 64, width: 64, alignSelf: "center"}} />
+              <img src="murat-et-gece-donercisi/a-feature_1_1-1.svg" style={{height: 64, width: 64, alignSelf: "center"}} />
               <h3>LEZZET</h3>
             </div>
             <div style={{display: "flex", flexDirection: "column"}}>
-              <img src="a-feature_1_2-1.svg" style={{height: 64, width: 64, alignSelf: "center"}} />
+              <img src="murat-et-gece-donercisi/a-feature_1_2-1.svg" style={{height: 64, width: 64, alignSelf: "center"}} />
               <h3>TAZELİK</h3>
             </div>
             <div style={{display: "flex", flexDirection: "column"}}>
-              <img src="a-feature_1_1-1.svg" style={{height: 64, width: 64, alignSelf: "center"}} />
+              <img src="murat-et-gece-donercisi/a-feature_1_1-1.svg" style={{height: 64, width: 64, alignSelf: "center"}} />
               <h3>MEMNUNİYET</h3>
             </div>
           </div>
