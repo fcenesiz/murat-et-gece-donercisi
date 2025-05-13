@@ -22,7 +22,7 @@ export default function AnaSayfaCarousel(){
             infiniteLoop={true}
             autoPlay={true}
         >
-            {images.map((value : string, index: number) => 
+            {images.map((value : string) => 
                 <img src={value}  style={{objectFit: "cover", height: 500, width: "100vw", borderRadius: 12, padding: 0}}/>
             )}  
         </Carousel>

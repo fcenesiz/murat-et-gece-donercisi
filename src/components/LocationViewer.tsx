@@ -1,18 +1,4 @@
 
-// 40.5460275,34.9510655
-
-import React from "react";
-import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
-
-const containerStyle = {
-  width: "100%",
-  height: "400px"
-};
-
-const center = {
-  lat: 40.5460275,  // Enlem
-  lng: 34.9510655   // Boylam
-};
 
 function LocationViewer() {
   return (

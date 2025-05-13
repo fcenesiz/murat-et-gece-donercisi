@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './../App.css';
 
 export default function InfoCard  ({ title, description, bgClass } : { title : string, description :  string, bgClass : string })  {
