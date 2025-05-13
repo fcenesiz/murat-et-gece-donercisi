@@ -6,7 +6,7 @@ import FiyatListesiScreen from "./Screens/FiyatListesiScreen"
 function App() {
   
   return (
-    <BrowserRouter >
+    <BrowserRouter basename={"/murat-et-gece-donercisi"} >
       <Routes>
         <Route path="/" element={< AnaSayfaScreen />} />
         <Route path="/fiyat-listesi" element={< FiyatListesiScreen />} />
