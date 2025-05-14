@@ -28,7 +28,7 @@ const Header = () => {
   return (
     <div className={`header ${showHeader ? 'show' : 'hide'}`}
         style={{
-            backgroundImage : "url('murat-et-gece-donercisi/header_background_image.jpg')", // url('https://www.corumbeltur.com.tr/wp-content/uploads/2024/09/breadcrumb-sonn-scaled.jpg')
+            backgroundImage : "url('header_background_image.jpg')", // url('https://www.corumbeltur.com.tr/wp-content/uploads/2024/09/breadcrumb-sonn-scaled.jpg')
                 backgroundSize:  "cover",
                 maxWidth: "100vw",
                 backgroundPosition: "center",
